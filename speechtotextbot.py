@@ -4,7 +4,7 @@ import google.generativeai as genai
 import pyttsx3
 
 engine = pyttsx3.init()
-genai.configure(api_key="AIzaSyDzh_mN_sNF9fkxNm6wQ8s-mv-OQbwsBTM")
+genai.configure(api_key="")
 
 # Create the model
 generation_config = {
